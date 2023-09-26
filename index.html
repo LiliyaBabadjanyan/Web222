@@ -115,19 +115,19 @@
   <h1>Форма HTML</h1>
 <ol>
 <li><label>
-  <input type="text" name="userName" placeholder="Введите ФИО" size="18">
+  <input type="text" name="userName" placeholder="Введите ФИО" size="18" required>
 </label></li>
 <li><label>
-  <input name="phone" type="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="Номер телефона">
+  <input name="phone" type="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="Номер телефона" required>
 </label></li>
 <li><label>
-  <input type="email" name="login" placeholder="Email">
+  <input type="email" name="login" placeholder="Email" required >
 </label></li>
   <li><label>
     Дата рождения <br>
     <input name="field-date"
            value="2019-08-13"
-           type="date">
+           type="date" required >
   </label><br></li>
   <li><br>
     <label><input type="radio" checked="checked"
@@ -140,7 +140,7 @@
     Любимый язык
     <br>
     <select name="field-name-4[]"
-            multiple="multiple">
+            multiple="multiple" required>
       <option value="Значение1">Pascal</option>
       <option value="Значение2" selected="selected">C</option>
       <option value="Значение3" selected="selected">C++</option>
@@ -156,11 +156,11 @@
   </label><br></li>
   <li><label>
     <br>
-    <textarea name="field-name-2" placeholder="Биография"></textarea>
+    <textarea name="field-name-2" placeholder="Биография" required></textarea>
   </label><br></li>
   <li><br>
     <label><input type="checkbox" checked="checked"
-                  name="check-1">
+                  name="check-1" required>
       С контрактом ознакомлен(а)</label><br></li>
   <li><input type="submit" value="Сохранить"></li>
 </ol>
