@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2db3fa0f-3da0-49ea-a793-ace57980c83a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ProbaStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ProbaStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +40,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/GOG Games/drugoe221&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/liliy&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -61,7 +63,9 @@
       <updated>1694105193870</updated>
       <workItem from="1694105197057" duration="5745000" />
       <workItem from="1695314061574" duration="476000" />
-      <workItem from="1695315734364" duration="61000" />
+      <workItem from="1695315734364" duration="894000" />
+      <workItem from="1695918553254" duration="90000" />
+      <workItem from="1695919014004" duration="9324000" />
     </task>
     <servers />
   </component>

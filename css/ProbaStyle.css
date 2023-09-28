@@ -1,43 +1,67 @@
-nav, form{
-    max-width: 960px;
-    margin: 0 auto;
+form{
+    margin: auto;
     background-color: #8C8C8C;
     border-radius: 10px;
+    max-width: 100%;
 }
 
- body{
-     background-color: #343a40;
- }
+li{
+    font-size: 20px;
+}
 
- .logo{
-    height: 100px;
-     width: 100px;
-     border-radius: 50%;
-     margin-right: 30px;
- }
+img{
+    max-width: 50%;
+}
 
-header, footer{
-     min-width: 100%;
-     background-color: #8C8C8C;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    border-radius: 10px;
- }
-
-.navq1{
-    display: inline-block;
+h3{
     margin: 20px;
 }
 
-.nav-item {
-    background-color: transparent;
-    border: none;
-    margin-right: 5px;
-    text-decoration: none;
-    transition: 0.25s ease;
+.nav-wraper {
+    margin: 0;
+    padding: 0;
 }
+
+main {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: darkgray;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+img{
+    max-width: 50%;
+}
+
+body{
+    background-color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+header, footer{
+    max-width: 100%;
+    background-color: #8C8C8C;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+
 
 a, p{
     color: black;
@@ -56,8 +80,16 @@ td {
     border: 1px solid black;
 }
 
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid black;
+    margin: 50px auto;
+    width: 95%;
+}
+
 table{
-    margin: auto;
+    order: -1;
 }
 
 .ttt{
@@ -67,3 +99,91 @@ table{
     border-radius: 10px;
 }
 
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.nav-item-wraper {
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+
+.nav-item {
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    transition: 0.25s ease;
+}
+
+
+@media all and (min-width: 900px) {
+    header {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+    .header-wraper {
+        width: 960px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0;
+    }
+    main {
+        margin: 10px;
+    }
+
+    .img-1{
+        height: 200px;
+        width: 200px;
+    }
+
+   .nav-item-wraper {
+       display: inline-block;
+        margin: 10px;
+    }
+
+    .forms {
+        min-width: 255px;
+    }
+
+    .logo {
+        width: 215px;
+        height: 120px;
+    }
+
+    .head {
+        justify-content: left;
+        width: 30%;
+    }
+
+    .front-block {
+        border-radius: 30px;
+    }
+
+    table {
+        width: 80%;
+        order: 1;
+    }
+
+    img{
+        max-width: 100%;
+    }
+}
